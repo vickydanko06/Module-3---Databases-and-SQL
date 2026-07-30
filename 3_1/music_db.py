@@ -18,7 +18,7 @@ import sqlite3
 # ── Database setup ────────────────────────────────────────────────────────────
 # Using ":memory:" creates a temporary database that lives only for this run.
 # No file is written to disk — great for experiments.
-conn = sqlite3.connect(":memory:")
+conn = sqlite3.connect("music.db")
 
 # PRAGMA foreign_keys must be ON for FK constraints to be enforced in SQLite.
 conn.execute("PRAGMA foreign_keys = ON")
