@@ -197,7 +197,7 @@ if __name__ == "__main__":
 
     if alice:
         for course in alice.courses:
-            print(f"  {course.title}")
+            print(f"  {course.title}")d
 
 
 
